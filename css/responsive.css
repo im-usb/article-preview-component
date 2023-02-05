@@ -1,0 +1,34 @@
+@media only screen and (max-width: 768px) {
+
+body {
+    margin: 0 0;
+}
+
+.page-main .flex-container {
+    max-width: 327px;
+    margin: 72px auto;
+    flex-direction: column;
+}
+
+.flex-container .flex-item1 img{
+    width: 327px;
+    border-radius: 10px 10px 0 0;
+    top: 72px;
+    border: solid #ECF2F8;
+    border-width: 0 0 ;
+}
+
+.flex-container .flex-item2 {
+    position: relative;
+    width: 263px;
+    padding: 35px 32px;
+    margin: 200px auto 0 auto;
+    border-radius: 0 0 10px 10px;
+}
+
+.flex-container .flex-item2 .article h1 {
+    font-size: 16px;
+    margin: 0 0 12px 0;
+}
+
+}

@@ -1,0 +1,88 @@
+* {
+    font-family: 'Manrope', sans-serif;
+    font-size: 13px;
+}
+
+body {
+    background-color: #ECF2F8;
+    min-height: 100vh;
+}
+
+.page-main .flex-container {
+    max-width: 730px;
+    margin: 260px auto;
+    box-shadow: #cad6e280 0px 40px 40px -10px;
+    display: flex;
+}
+
+.flex-container .flex-item1 img{
+    width: 344px;
+    position: absolute;
+    border-radius: 10px 0 0 10px;
+}
+
+
+.flex-container .flex-item2 {
+    margin: 0 auto 0 285px;
+    max-width: 365px; 
+    position: relative;
+    background-color: #FFF;
+    padding: 32px 40px;
+    border-radius: 0 10px 10px 0;
+}
+
+.flex-container .flex-item2 .article h1 {
+    font-size: 20px;
+    margin: 0 0 12px 0;
+    color: #48556A;
+}
+
+.flex-container .flex-item2 .article p {
+    margin: 0 0 20px 0;
+    color: #6E8098;
+}
+
+.flex-container .flex-item2 .byline {
+    display: flex;
+    width: 100%;
+}
+
+.flex-container .flex-item2 .byline .author {
+    width: 76%;
+}
+
+.flex-container .flex-item2 .byline .author h2 {
+    margin: 0 0;
+    color: #48556A;
+}
+
+.flex-container .flex-item2 .byline .author p {
+    margin: 3px 0 0 0;
+    color:#9DAEC2;
+}
+
+.flex-container .flex-item2 .byline .avatar img{
+    width: 40px;
+    margin: auto 16px auto 0;
+    border-radius: 50%;
+}
+
+.flex-container .flex-item2 .byline .share {
+    margin: 5px 0 0 0;
+}
+
+.flex-container .flex-item2 .byline .share .fa-share{
+    color: #6E8098;
+    border: solid #FFF;
+    border-radius: 50%;
+    border-width: thin;
+    padding: 8.5px 7.5px 8.5px 8.5px;
+    background-color: #ECF2F8;
+}
+
+.flex-container .flex-item2 .byline .share :hover{
+    background: #6E8098;
+    color: #FFF;
+    
+}
+
